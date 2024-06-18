@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Gabriela);
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 html, body {
   height: 100%;
@@ -26,12 +28,16 @@ body {
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
+ background-color: #fff;
+ 
+ 
+
 }
 
 h1 {
   font-size: 3.5em;
   margin-bottom: 0;
+  color: #B5F1CC;
 }
 
 h2 {
@@ -40,9 +46,10 @@ h2 {
 }
 
 h3 {
-  font-family: 'Gabriela', serif;
+  font-family:'Tilt Warp', cursive;
   font-size: 1.5em;
   margin-top: .5em;
+  color: #4D455D;
 }
 
 img {
@@ -53,7 +60,9 @@ img {
 
 p {
   font-size: 1em;
+  font-family: 'Inter', sans-serif;
 }
+
 
 a {
   color: black;
